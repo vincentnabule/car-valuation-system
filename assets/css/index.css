@@ -1,0 +1,191 @@
+* {
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	border-color: antiquewhite;
+	background-image: url('<?= base_url()?>assets/images/F5.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#hImage1 {
+	width: 150px;
+	height: 70px;
+}
+
+.blackBG {
+	background-color: black !important;
+}
+
+.infom h2 {
+	font-size: 14px;
+	font-family: Algerian;
+}
+
+.slideImage {
+	width: 100%;
+	height: 150px;
+}
+
+.imgDiv {
+	border-radius: 5px;
+}
+
+.hTitle {
+	width: 100%;
+	clear: both;
+	text-align: center;
+	text-shadow: #ccc;
+	font-family: Algerian;
+	font-weight: bold;
+	padding: 2px;
+}
+
+.balk marquee {
+	color: white;
+	font-size: large;
+}
+
+.lg {
+	font-weight: unset;
+}
+
+.statistics p {
+	margin: 0;
+}
+
+.plans {
+	border-style: groove;
+	border-radius: 7px;
+	border: 3px solid red;
+	border-bottom: orange;
+	border-left: blue;
+}
+
+.plans h5 {
+	font-size: 18px !important;
+	text-decoration: underline;
+}
+
+
+.predict {
+	text-align: center;
+	font-weight: bolder;
+}
+
+.fa {
+	font-size: 25px !important;
+	/* color: #ccc !important; */
+}
+
+.fa a:hover,
+.footer a:hover {
+	color: white !important;
+}
+
+#smlghide {
+	display: none;
+}
+
+.lastLk {
+	margin-bottom: 30px;
+}
+
+.cRights {
+	text-align: center;
+	font-size: 15px;
+	height: 60px;
+	color: white;
+	width: 100%;
+	margin-bottom: -15px;
+}
+
+@media screen and (min-width: 350px) {
+	.infom h2 {
+		font-size: 17px;
+	}
+}
+
+@media screen and (min-width: 390px) {
+	.infom h2 {
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 450px) {
+	.slideImage {
+		height: 200px;
+	}
+}
+
+@media screen and (min-width: 576px) {
+	.infom h2 {
+		font-size: 25px;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+	.infom h2 {
+		font-size: 30px;
+	}
+
+	.slideImage {
+		height: 300px;
+	}
+
+	.mLinks,
+	.G-Logs {
+		display: grid !important;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: auto;
+		gap: 5px;
+	}
+
+	.Plan1 {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: auto;
+		gap: 5px;
+	}
+
+	#smlghide {
+		display: block;
+	}
+
+	#mdhide {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	#hImage1 {
+		width: 200px;
+		height: 100px;
+	}
+
+	.G-Logs {
+		grid-template-columns: repeat(3, 1fr);
+		gap: 2px;
+	}
+
+	.Plan1 {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	#smlghide {
+		display: none;
+	}
+
+	#mdhide {
+		display: block;
+	}
+
+	#itmcen {
+		text-align: center;
+	}
+}
